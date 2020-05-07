@@ -1,0 +1,43 @@
+body{
+    width: 100%;
+}
+
+div.image-container {
+    text-align: center;
+  }
+
+
+ h1.form_name{
+color: mediumpurple;
+text-decoration: underline;
+
+ } 
+
+div.saylani-form-body{
+      font-family: sans-serif;
+      max-width: 1000px;
+      background-color: mediumpurple;
+      margin: auto;
+      border: midnightblue;
+      border-style: solid;
+      line-height: 1.5em;
+  }
+
+    div.Submitted-form{
+        font-family: sans-serif;
+        max-width: 600px;
+        margin: auto;
+        border: midnightblue;
+        border-style: solid;
+        text-align: center;
+    }
+    h1.Thanks{
+        color: green ;
+    }
+    h2{color: purple ;
+    }
+    h3{
+        color: purple;
+        font-size: 32px;
+    }
+

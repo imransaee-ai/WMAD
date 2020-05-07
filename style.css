@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+body {
+    margin: 0;
+}
+
+
+nav {
+    width: 100%;
+    /*width should be a percentage for responsiveness  */
+    height: 62px;
+    /*height should be px. Adjust to your liking */
+    background-color: #4e7ee6;
+    /*hex color code should be used*/
+    overflow: hidden;
+    border: mediumblue;
+    display: flex;
+}
+
+#logo {/*font*/
+    font-family: 'montserrat', sans-serif;  
+    font-size: 30px;  
+    font-weight: 500;
+    letter-spacing: -2px;  
+    text-shadow: 1px 1px 2px #c4c4c4;
+    /*box*/
+    padding-left: auto;  padding-right: 40px;  
+    margin-left: auto;  margin-top: -10px; 
+    margin-right: auto;
+    cursor: pointer;
+}
+
+nav ul {
+    margin-left: 65px;
+    margin-top: 0px;
+    
+    padding: 0;
+    /*this option by default dispose the elements in a row (flex-direction: row)*/
+    display: flex;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 3vh;
+}
+
+nav li>a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    
+   /* border: 1px solid #000;*/ /* this is just to make understand that all these are in boxes*/
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+nav li>a:hover {
+    color: gold  ;
+}

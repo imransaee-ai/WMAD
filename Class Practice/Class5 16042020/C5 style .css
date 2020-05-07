@@ -1,0 +1,118 @@
+li.sameline {
+    display: inline;
+    margin-right: 10px;
+}
+
+li.coming-soon {
+    display: none;
+}
+
+@font-face {
+    font-family: 'worksans';
+    src: url('WorkSans-VariableFont_wght.ttf');
+}
+
+* {
+    font-family: worksans;
+}
+
+h1 {
+    color: darkcyan;
+    background-color: aqua;
+}
+
+p.one {
+    overflow: hidden;
+}
+
+p.two {
+    overflow: scroll;
+}
+
+p.five {
+    border-style: solid;
+    padding: 10px;
+    margin: 20px;
+}
+
+p.three {
+    border-style: solid;
+    border-color: #0088dd;
+}
+
+p.four {
+    border-style: solid;
+    border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+}
+
+
+p.six {
+    border-style: ridge;
+}
+
+p.seven {
+    border-style: inset;
+}
+
+p.eight {
+    border-style: outset;}
+
+p.nine {
+    width: 300px;
+    padding: 50px;
+    border: 20px solid #0088dd;
+    border-style: solid;
+}
+
+p.ten {
+    margin: 10px auto 10px auto;
+    text-align: left;
+    border-style: solid;
+}
+
+p.eleven {
+    border-style: dashed;
+}
+
+p.twelve {
+    border-style: double;
+}
+
+p.thirteen {
+    border-style: groove;
+}
+
+
+
+p.fourteen {
+    -moz-box-shadow: -5px -5px #777777;
+    -webkit-box-shadow: -5px -5px #777777;
+    box-shadow: -5px -5px #777777;}
+    p.fifteen {
+    -moz-box-shadow: 5px 5px 5px #777777;
+    -webkit-box-shadow: 5px 5px 5px #777777;
+    box-shadow: 5px 5px 5px #777777;}
+    p.sixteen {
+    -moz-box-shadow: 5px 5px 5px 5px #777777;
+    -webkit-box-shadow: 5px 5px 5px 5px #777777;
+    box-shadow: 5px 5px 5px 5px #777777;}
+    p.seventeen {
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;}
+    p.eighteen {
+    -moz-box-shadow: inset 0 0 10px #777777;
+    -webkit-box-shadow: inset 0 0 10px #777777;
+    box-shadow: inset 0 0 10px #777777;}
+
+    p.nineteen {
+        border: 5px solid #cccccc;
+        padding: 20px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;}
+
+
+        

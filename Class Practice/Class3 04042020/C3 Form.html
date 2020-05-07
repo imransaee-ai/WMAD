@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="http://www.example.com/login.php">
+        <p>Username:
+            <input type="text" name="username" size="15" maxlength="30" />
+        </p>
+        <p>Password:
+            <input type="password" name="password" size="15" maxlength="30" />
+        </p>
+    </form>
+
+
+
+    <form action="http://www.example.com/comments.php">
+        <p>What did you think of this gig?</p>
+        <textarea name="comments" cols="30" rows="4">Enter
+        your comments...</textarea>
+    </form>
+
+    <form action="http://www.example.com/profile.php">
+        <p>Please select your favorite genre:
+            <br />
+            <input type="radio" name="genre" value="rock" checked="checked" /> Rock
+            <input type="radio" name="genre" value="pop" />
+            Pop
+            <input type="radio" name="genre" value="jazz" />
+            Jazz
+        </p>
+    </form>
+
+
+
+    <form action="http://www.example.com/profile.php">
+        <p>Please select your favorite music service(s):
+            <br />
+            <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+            <input type="checkbox" name="service" value="lastfm" /> Last.fm
+            <input type="checkbox" name="service" value="spotify" /> Spotify
+        </p>
+    </form>
+
+
+    <form action="http://www.example.com/profile.php">
+        <p> What device do you listen to music on?</p>
+        <select name="devices">
+            <option value="ipod">iPod</option>
+            <option value="radio">Radio</option>
+            <option selectedvalue="computer">Computer</option>
+        </select>
+    </form>
+
+    <form action="http://www.example.com/profile.php">
+        <p>Do you play any of the following instruments?
+            (You can select more than one option by holding
+            down control on a PC or command key on a Mac
+            while selecting different options.)</p>
+        <select name="instruments" size="5" multiple="multiple">
+            <option value="guitar" selected="selected">
+                Guitar</option>
+            <option value="drums">Drums</option>
+            <option value="keyboard" selected="selected">Keyboard</option>
+            <option value="bass">Bass</option>
+        </select>
+    </form>
+
+    <form action="http://www.example.com/upload.php"
+method="post">
+<p>Upload your song in MP3 format:</p>
+<input type="file" name="user-song" /><br />
+<input type="submit" value="Upload" />
+</form>
+
+
+<form action="http://www.example.com/subscribe.php">
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email" />
+    <input type="submit" name="subscribe"
+    value="Subscribe" />
+    </form>
+
+    <form action="http://www.example.org/subscribe.php">
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email" />
+        <input type="image" src="images/subscribe.jpg"
+        width="100" height="20" />
+        </form>
+
+
+        <fieldset>
+        <legend>Many Form Types -- this is legend and border is fieldset</legend>
+		<form action="http://www.example.com/add.php">
+            ○ A button
+            <button><img src="images/add.gif" alt="add" width="10" height="10" /> Add</button>
+            <input type="hidden" name="bookmark" value="lyrics" />
+            <br>  
+            ○ A clickable button, that activates a JavaScript when it is clicked:
+            <input type="button" value="Click me" onclick="msg()">
+            <br>  
+            ○ Select a color from a color picker:
+            Select your favorite color: <input type="color" name="favcolor">
+            <br>  
+            ○ Define a date control:
+            Birthday: <input type="date" name="bday">
+            <br>  
+            ○ Define a date and time control (with time zone):
+            Birthday Date and Time<input type="datetime" name="bdaytime">
+            The input type datetime has been removed from the HTML standard.
+            Use datetime-local instead
+            <br>  
+            ○ Define a field for an e-mail address (will be automatically validated when submitted):
+            E-mail: <input type="email" name="usremail">
+            <br>  
+            ○ Define a month and year control (no time zone):
+            Birthday (month and year): <input type="month" name="bdaymonth">
+            <br>  
+            ○ Define a field for entering a number (You can also set restrictions on what numbers are accepted):
+            Quantity (between 1 and 5): <input type="number" name="quantity" min="1" max="5">
+            <br>  
+            ○ Define a control for entering a number whose exact value is not important (like a slider control). You can also set restrictions on what numbers are accepted:
+            <input type="range" name="points" min="0" max="10">
+            <br>  
+            ○ Define a reset button (resets all form values to default values):
+            <input type="reset">
+            <br>  
+            ○ Define a search field (like a site search, or Google search):
+            Search Google: <input type="search" name="googlesearch">
+            <br>  
+            ○ Define a field for entering a telephone number:
+            Telephone: <input type="tel" name="usrtel">
+            <br>  
+            ○ Define a control for entering a time (no time zone):
+            Select a time: <input type="time" name="usr_time">
+            <br>  
+            ○ Define a field for entering a URL:
+            Add your homepage: <input type="url" name="homepage">
+            <br>  
+            ○ Define a week and year control (no time zone):
+            Select a week: <input type="week" name="week_year">
+        </form>
+    </Fieldset>
+
+
+</body>
+
+</html>
